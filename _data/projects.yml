@@ -1,11 +1,10 @@
-- name: Project 1
+- name: 818B Decision-Making For Robotics
   id: project1
   description: >
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+    We love robots!
   date: true
-  link: https://example.com
-  image:  http://placehold.it/100x100
+  link: https://kvsakano.github.io/project/2020/08/10/818B.html
+  image:  \assets\img\icons\robot_s.png
   tech: 
     - python
 
