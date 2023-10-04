@@ -8,11 +8,11 @@
 # -----------BASE SETTINGS---------------#
 #========================================#
 
-title: Dumbarton 
-email: 
-description: a minimalistic jekyll theme for academics
+title: Kristy Sakano's Website
+email: kvsakano@umd.edu
+description: A personal webpage about robots, astronomy, and plants.
 baseurl:                                       # the subpath of your site, e.g. /blog
-url: "https://dumbarton.netlify.app/"          # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://kvsakano.github.io/"          # the base hostname & protocol for your site, e.g. http://example.com
 image: /assets/img/dumbarton.png               # used to generate site link preview
 image_alt: A minimalistic jekyll theme for academic    # image description
 

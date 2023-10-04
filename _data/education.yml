@@ -1,6 +1,20 @@
-- School: Princeton
-  Degree: 
-  Program: School of Public and International Affairs
-  Start Date: 
-  End Date: 
-  Icon: /assets/img/icons/2x/princeton-crop.png      # Make this icon small, think 30px/30px
+- School: University of Maryland at College Park
+  Degree: PhD in Computer Science
+  Program: College of Computer, Mathematical, and Natural Sciences    
+  StartDate: 2023
+  EndDate: Present
+  Icon: /assets/img/icons/2x/umd_logo.png      # Make this icon small, think 30px/30px
+
+- School: Georgia Institute of Technology
+  Degree: M.S. in Computer Science, Focus in Computational Perception & Robotics    
+  Program: College of Computing
+  StartDate: 2020
+  EndDate: 2023
+  Icon: /assets/img/icons/2x/gt_logo.png      # Make this icon small, think 30px/30px
+
+- School: University of North Carolina at Chapel Hill
+  Degree: B.S. in Physics, Option Astrophysics
+  Program: College of Arts & Sciences    
+  StartDate: 2014
+  EndDate: 2018
+  Icon: /assets/img/icons/2x/unc_logo.png      # Make this icon small, think 30px/30px
