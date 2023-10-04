@@ -12,14 +12,14 @@
 
 - name: Teaching
   id: teaching
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  description: This is a list of classes that I have TA'd at UMD College Park.
   content: 
   url: teaching.html
   first: false
 
 - name: Projects
   id: projects
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  description: This is a list of past & ongoing class projects at UMD College Park.
   content: 
   url: projects.html
   first: false
