@@ -29,9 +29,12 @@ If this is your first time making a webpage, don't worry - I didn't have any web
     - Don't forget to create your keys on your machine & upload your public key to your GitHub account.
 
 3. <a href="https://www.ruby-lang.org/en/" target="_blank" style="color: DodgerBlue; font-weight: bold;">Ruby</a> (+ devkit package) - I used Ruby 2.7.2 which is an older version, but compatible with jekyll-scholar and <a href="https://open-research.gemmadanks.com/tutorials/how-to-use-jekyll-scholar-with-github-pages/" target="_blank" style="color: DodgerBlue; font-weight: bold;">recommended by researcher Gemma Danks</a>. (Thanks Gemma!)
-    - Run `ridk install` on the last stage of the installation wizard (this installs gem)
-    - Open a new terminal and run `gem install Jekyll bundler`
+    - You will need to first install a Ruby version of >3.0. I downloaded the <a href="https://rubyinstaller.org/downloads/archives" target="_blank" style="color: DodgerBlue; font-weight: bold;">Ruby+Devkit 3.2.2-1 (x64)</a>. installer.
+    - Run `ridk install` on the last stage of the installation wizard to install gem. Alternatively, if you check the box on the last page, it will auto run this command. Hit <b>Enter</b> a few times to install all the recommended packages.
+    - Open a new terminal and run `bundle install` and then `gem install Jekyll bundler`
     - Check if Jekyll has been installed by running `jekyll -v`
+    - Lastly, you'll need to install <a href="https://rubyinstaller.org/downloads/archives" target="_blank" style="color: DodgerBlue; font-weight: bold;">Ruby+Devkit 2.7.2-1 (x64)</a> and follow the rest of the instructions for downgrading ruby locally that Gemma detailed in her blog.
+
 
 #### Useful References
 
@@ -49,7 +52,7 @@ When creating my own webpage, I referenced a number of Youtube videos and blogs.
          width="50%"
          align="right">
 </figure>
-1. Clone the repository from the Dumbarton Github page.
+1. <b>Clone the repository from the <a href="https://github.com/tcbutler320/Jekyll-Theme-Dumbarton" target="_blank" style="color: DodgerBlue; font-weight: bold;">Dumbarton Github Page</a> page </b>.
     - Select the "Create new repository" option.
 
 <figure>
@@ -57,6 +60,21 @@ When creating my own webpage, I referenced a number of Youtube videos and blogs.
          width="50%"
          align="right">
 </figure>
-2. Create a new repository on GitHub - your repository name will be [GitHub username].GitHub.io 
+2. <b>Create a new repository on GitHub </b>- your repository name will be [GitHub username].github.io 
+    - For example, I set my repository to <b>kvsakano.github.io</b>, and my GitHub username is kvsakano.
     - Set the repository to Public
 
+3. <b>Use your GitBash to clone your new repository to your desired location on your computer.</b>
+
+4. <b> Open the directory in VSCode</b> - or whatever your preferred text editor is.
+
+5. <b> Run `bundle exec jekyll serve` in the repo's folder via GitBash</b> - this command runs the exact jekyll server version that is specified in your Gemfile.
+
+6. <b> Open your web page locally </b> using the URL pasted in your GitBash. You can paste the Server address (example: http://127.0.0.1:4000) in a webpage and your website should pop up.
+- Note that if you terminate the batch job/exit out of the jekyll command, it'll close your local page connection. 
+
+7. <b> Make your edits, then save & push your changes </b>. You can either terminate the batch job and use the same GitBash app, or open up a second tab and do so there.
+- Useful Git commands: 
+  - `git add *` 
+  - `git commit -m "[Insert your message here]"`
+  - `git push`
