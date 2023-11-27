@@ -10,7 +10,7 @@ foo:   "2023-10-11"
 categories: 
 tag: 
 author: Kristy Sakano
-card: card-1
+card: card-ruby
 ---
 
 Did you like my webpage? Thanks! I used this theme from Tyler Butler called <a href="https://github.com/tcbutler320/Jekyll-Theme-Dumbarton" target="_blank" style="color: DodgerBlue; font-weight: bold;">Dumbarton</a>. It's not originally built to be hosted on GitHub pages, but I found a workaround that might help you host your own webpage for free on GitHub Pages!
@@ -47,22 +47,22 @@ When creating my own webpage, I referenced a number of Youtube videos and blogs.
 
 #### Instructions
 
-<figure>
-    <img src="/assets/img/posts/webpage/dumbarton_clone.png"
-         width="50%"
-         align="right">
-</figure>
-1. <b>Clone the repository from the <a href="https://github.com/tcbutler320/Jekyll-Theme-Dumbarton" target="_blank" style="color: DodgerBlue; font-weight: bold;">Dumbarton Github Page</a> page </b>.
+
+
+
+<img style="float: right;" width="51%" src="/assets/img/posts/webpage/dumbarton_clone.png">
+
+<img style="float: right;" width="51%" src="/assets/img/posts/webpage/github_newrepo.png">
+
+<img style="float: right;" width="51%" src="/assets/img/posts/webpage/github_actions.png">
+
+1. <b>Clone the repository from the <a href="https://github.com/tcbutler320/Jekyll-Theme-Dumbarton" target="_blank" style="color: DodgerBlue; font-weight: bold;">Dumbarton Github Page</a> page</b>.
     - Select the "Create new repository" option.
 
-<figure>
-    <img src="/assets/img/posts/webpage/github_newrepo.png"
-         width="50%"
-         align="right">
-</figure>
+
 2. <b>Create a new repository on GitHub </b>- your repository name will be [GitHub username].github.io 
-    - For example, I set my repository to <b>kvsakano.github.io</b>, and my GitHub username is kvsakano.
-    - Set the repository to Public
+- For example, I set my repository to <b>kvsakano.github.io</b>, and my GitHub username is kvsakano.
+- Set the repository to Public
 
 3. <b>Use your GitBash to clone your new repository to your desired location on your computer.</b>
 
@@ -73,8 +73,19 @@ When creating my own webpage, I referenced a number of Youtube videos and blogs.
 6. <b> Open your web page locally </b> using the URL pasted in your GitBash. You can paste the Server address (example: http://127.0.0.1:4000) in a webpage and your website should pop up.
 - Note that if you terminate the batch job/exit out of the jekyll command, it'll close your local page connection. 
 
-7. <b> Make your edits, then save & push your changes </b>. You can either terminate the batch job and use the same GitBash app, or open up a second tab and do so there.
+7. <b> Make your edits, then save & push your changes.</b> You can either terminate the batch job and use the same GitBash app, or open up a second tab and do so there.
 - Useful Git commands: 
   - `git add *` 
   - `git commit -m "[Insert your message here]"`
   - `git push`
+
+8. <b> Create a GitHub Action to deploy jekyll-scholar</b>. You may have noticed that Dumbarton is not able to run on Github and the author advocates for deplyment on Netlify. I don't want to use another website, and I prefer Github Pages, so here's a hack to get Dumbarton working on Github Pages.
+- Go back to your project's GitHub page. Click on the <b> Settings -> Pages </b> tab at the top of the screen.
+- GitHub Actions may suggest a few workflows, but you can either click on <b>Configure</b> under the Simple workflow tab, or click on <b>set up a workflow yourself -></b> (both options lead to the same page).
+- You'll need to copy <a href="https://github.com/gemmadanks/gemmadanks.github.io/blob/main/.github/workflows/jekyll.yml" target="_blank" style="color: DodgerBlue; font-weight: bold;">the contents of Gemma's workflow file</a> into the GitHub Actions workflow file. Click on <b> Commit Changes </b> to save the workflow file.
+
+9. <b>Deploy Your Jekyll site to Pages</b> - on GitHub, open your repository and navigate to the Actions page. Click on the <b>Deploy Jekyll site to Pages</b> button, then <b> Run workflow.
+
+10. <b> Enjoy your new webpage! </b> Navigate back to your webpage URL (ex: kvsakano.github.io) and see your updates pushed.
+- Note: you might need to wait a few minutes for your webpage to be deployed - don't panic, this step may take 5-10 minutes.
+

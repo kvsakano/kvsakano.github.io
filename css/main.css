@@ -607,6 +607,14 @@ background-position: right;
 background-size: 100px;
 }
 
+.card-ruby{
+
+  background-image: url(/assets/img/icons/ruby.png);
+  background-repeat: no-repeat;
+background-position: right;
+background-size: 150px;
+}
+
 @media(max-width: 990px){
 .blogcard{
   margin: 20px;
