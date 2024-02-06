@@ -1,17 +1,10 @@
-- Course: POL 554 International Security Studies
-  Program: School of Public and International Affairs  
-  School: Harvard
-  id: POL554
-  description: >
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-  link: https://example.com
 
-- Course: POL 585 International Political Economy
-  Program: School of Public and International Affairs
-  School: Harvard
-  id: POL585
-  description: >
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.   
-  link: https://example.com
+- News: I was accepted to CRA-WP's Grad Cohort Workshop for IDEALS.
+  Date: January 2024 - 
+  Link: Link
+  URL: https://web.cvent.com/event/2b082229-e223-4ee7-9aae-f26bf03f3a71/summary
+
+- News: I was awarded the Dean's Fellowship at UMD College Park!
+  Date: August 2023 - 
+  Link: Link
+  URL: 'https://gradschool.umd.edu/funding/student-fellowships-awards/university-deans-and-merit-program'
