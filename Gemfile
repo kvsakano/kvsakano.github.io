@@ -1,8 +1,6 @@
 source "https://rubygems.org"
 
-if Gem::Version.new(Bundler::VERSION) < Gem::Version.new('2.4.22')
-  abort "Bundler version is wrong?"
-end
+gem install bundler -v '~> 2.4.22'
 #gemspec
 gem 'jekyll'                    #Needed since this is a theme for Jekyll
 gem 'jekyll-feed'
