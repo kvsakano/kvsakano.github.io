@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-gem install bundler -v '~> 2.4.22'
+
 #gemspec
 gem 'jekyll'                    #Needed since this is a theme for Jekyll
 gem 'jekyll-feed'
