@@ -1,10 +1,12 @@
 ---
 layout: post
-title: The Xu Research Group participated in the AI for Good Media day at the University of Maryland at College Park! 
+title: The Xu Research Group participated in the AI for Good media day at the University of Maryland at College Park! 
 date: 2015-11-07 16:11:00-0400
 inline: false
 related_posts: false
 ---
+
+Our work 
 
 Announcements and news can be much longer than just quick inline posts. In fact, they can have all the features available for the standard blog posts. See below.
 
