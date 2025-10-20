@@ -440,16 +440,16 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
-          description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+            },},{id: "news-the-xu-research-group-participated-in-the-ai-for-good-media-day-at-the-university-of-maryland-at-college-park",
+          title: 'The Xu Research Group participated in the AI for Good media day at...',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+            },},{id: "news-we-presented-our-work-titled-a-framework-for-black-box-controller-design-to-automatically-satisfy-specifications-using-signal-temporal-logic-a-icuas-2025-in-charlotte-nc",
+          title: 'We presented our work, titled A Framework for Black-Box Controller Design to Automatically...',
+          description: "",
+          section: "News",},{id: "news-the-xu-research-group-participated-in-the-ai-for-good-media-day-at-the-university-of-maryland-at-college-park",
+          title: 'The Xu Research Group participated in the AI for Good Media day at...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
