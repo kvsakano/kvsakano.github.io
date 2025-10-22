@@ -6,7 +6,7 @@ subtitle: Ph.D. Student at the University of Maryland at College Park <br> <b>Ro
 
 profile:
   align: right
-  image: kristy_pic.png
+  image: kristy_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
 
@@ -24,7 +24,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a 3rd year PhD student in the [Department of Computer Science](https://www.cs.umd.edu/people/kvsakano) at the University of Maryland at College Park advised by [Dr. Mumu Xu](https://user.eng.umd.edu/~mumu/). I am broadly interested in formal verification and model checking of autonomous cyber-physical systems. My work combines human feedback and Signal Temporal Logic (STL) methods to evaluate black-box controllers. I am passionate about machine learning transparency by brining human operators into the loop to make autonomous robots safe for everyone :robot:
+I am a 3rd year PhD student in the [Department of Computer Science](https://www.cs.umd.edu/people/kvsakano) at the University of Maryland at College Park advised by [Dr. Mumu Xu](https://user.eng.umd.edu/~mumu/). I am broadly interested in formal verification and model checking of autonomous cyber-physical systems. My work combines human feedback and Signal Temporal Logic (STL) methods to evaluate black-box controllers. I am passionate about machine learning transparency by bringing human operators into the loop to make autonomous robots safe for everyone :robot:
 
 This past summer (2025), I completed an internship at the [National Consortium for the Study of Terrorism and Responses to Terrorism (START)](https://www.start.umd.edu/) where I co-authored a white paper on hacktivism, ideologically-motivated cybercrimes. My technical contributions included analyzing cyber-attack patterns in the 21st century, modeling state involvement in hacktivist cells, assessing emerging cyber threats, and developing defensive strategies.
 
