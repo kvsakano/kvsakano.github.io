@@ -440,16 +440,16 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-the-xu-research-group-participated-in-the-ai-for-good-media-day-at-the-university-of-maryland-at-college-park",
-          title: 'The Xu Research Group participated in the AI for Good media day at...',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
             },},{id: "news-we-presented-our-work-titled-a-framework-for-black-box-controller-design-to-automatically-satisfy-specifications-using-signal-temporal-logic-a-icuas-2025-in-charlotte-nc",
           title: 'We presented our work, titled A Framework for Black-Box Controller Design to Automatically...',
           description: "",
-          section: "News",},{id: "news-the-xu-research-group-participated-in-the-ai-for-good-media-day-at-the-university-of-maryland-at-college-park",
-          title: 'The Xu Research Group participated in the AI for Good Media day at...',
+          section: "News",},{id: "news-the-xu-research-group-participated-in-the-ai-for-good-media-day-at-umd-college-park",
+          title: 'The Xu Research Group participated in the AI for Good Media Day at...',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2/";
+            },},{id: "news-something-else-here",
+          title: 'Something else here.',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
