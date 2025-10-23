@@ -33,8 +33,8 @@ Check out the following news articles written about our event!
 2. [Artificial Intelligence learns to drive: Mario Kart](https://www.baltimoresun.com/2025/10/18/ai-drives-mariokart/) by Karle Hille for the Baltimore Sun
 3. WBALTV covered our project in this news segment (start at 1:00):
 
-<video src="/assets/videos/WBAL_10-16-2025_17.46.11.mp4" controls style="max-width: 100%; margin-bottom: 1em;"></video>
-
+    <video src="/assets/videos/WBAL_10-16-2025_17.46.11.mp4" controls style="max-width: 100%; display: block; margin: 0.5em 0 1em;"></video>
+    
 <ol start="4">
   <li>
     FOX5DC covered our project in this news segment (start at 1:18):
@@ -54,4 +54,3 @@ Check out the following news articles written about our event!
     </audio>
   </li>
 </ol>
-Explanation:
