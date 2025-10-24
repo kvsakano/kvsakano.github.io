@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://0.0.0.0:8080/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:8080/" rel="alternate" type="text/html" hreflang="en" /><updated>2025-10-20T22:42:15+00:00</updated><id>http://0.0.0.0:8080/feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://0.0.0.0:8080/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:8080/" rel="alternate" type="text/html" hreflang="en" /><updated>2025-10-24T17:03:46+00:00</updated><id>http://0.0.0.0:8080/feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 </subtitle><entry><title type="html">a post with plotly.js</title><link href="http://0.0.0.0:8080/blog/2025/plotly/" rel="alternate" type="text/html" title="a post with plotly.js" /><published>2025-03-26T14:24:00+00:00</published><updated>2025-03-26T14:24:00+00:00</updated><id>http://0.0.0.0:8080/blog/2025/plotly</id><content type="html" xml:base="http://0.0.0.0:8080/blog/2025/plotly/"><![CDATA[<p>This is an example post with some <a href="https://plotly.com/javascript/">plotly</a> code.</p>
 
 <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">plotly
@@ -202,7 +202,7 @@ Content 2
 
 <p>With this you can generate visualizations like:</p>
 
-<ul id="log" class="tab" data-tab="559136f1-2375-444a-8c02-2475786a9132" data-name="log">
+<ul id="log" class="tab" data-tab="01f95713-cab2-4f00-8a9c-b4684def3be1" data-name="log">
   
       <li class="active" id="log-php">
           <a href="#">php </a>
@@ -217,7 +217,7 @@ Content 2
       </li>
   
 </ul>
-<ul class="tab-content" id="559136f1-2375-444a-8c02-2475786a9132" data-name="log">
+<ul class="tab-content" id="01f95713-cab2-4f00-8a9c-b4684def3be1" data-name="log">
   
       <li class="active">
 <div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">var_dump</span><span class="p">(</span><span class="s1">'hello'</span><span class="p">);</span>
@@ -241,7 +241,7 @@ Content 2
 
 <h2 id="another-example">Another example</h2>
 
-<ul id="data-struct" class="tab" data-tab="9bad4f8e-778f-41ae-98ee-1e267debe057" data-name="data-struct">
+<ul id="data-struct" class="tab" data-tab="925f6e82-e067-4594-b1ab-bb8f984c355f" data-name="data-struct">
   
       <li class="active" id="data-struct-yaml">
           <a href="#">yaml </a>
@@ -252,7 +252,7 @@ Content 2
       </li>
   
 </ul>
-<ul class="tab-content" id="9bad4f8e-778f-41ae-98ee-1e267debe057" data-name="data-struct">
+<ul class="tab-content" id="925f6e82-e067-4594-b1ab-bb8f984c355f" data-name="data-struct">
   
       <li class="active">
 <div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">hello</span><span class="pi">:</span>
@@ -274,7 +274,7 @@ Content 2
 
 <h2 id="tabs-for-something-else">Tabs for something else</h2>
 
-<ul id="something-else" class="tab" data-tab="4ac01d9a-25c7-4647-963f-8e0b87db160c" data-name="something-else">
+<ul id="something-else" class="tab" data-tab="433a699e-b03d-42aa-8c82-2a4ec38f3f12" data-name="something-else">
   
       <li class="active" id="something-else-text">
           <a href="#">text </a>
@@ -289,7 +289,7 @@ Content 2
       </li>
   
 </ul>
-<ul class="tab-content" id="4ac01d9a-25c7-4647-963f-8e0b87db160c" data-name="something-else">
+<ul class="tab-content" id="433a699e-b03d-42aa-8c82-2a4ec38f3f12" data-name="something-else">
   
       <li class="active">
 <p>Regular text</p>

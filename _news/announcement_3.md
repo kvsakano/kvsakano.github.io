@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: The Xu Research Group participated in the AI for Good Media Day at UMD College Park!
