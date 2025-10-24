@@ -18,55 +18,109 @@
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "",
+        "username": "",
+        "url": ""
       }
     ]
   },
   "work": [
+        {
+      "name": "National Consortium for the Study of Terrorism and Responses to Terrorism (START)",
+      "position": "Summer Graduate Research Intern",
+      "url": "https://www.start.umd.edu/",
+      "startDate": "2025-06",
+      "endDate": "2025-08",
+      "summary": "Co-authored <b>From Protest to Proxy War: A Socio-Technical Overview of the Evolution of Hacktivism</b>, a white paper examining ideologically motivated cybercrimes and their intersection with modern conflict, psychology, and state involvement.",
+      "highlights": ["<b>Analyzed cyber-attack patterns in the 21st century</b>, including major hacktivist operations during the 2025 Iran-Israel conflict and earlier campaigns following the 2022 Mahsa Amini protests in Iran.",
+                     "<b>Modeled pathways state involvement in hacktivist cells</b>, including state-encouraged 'proxy hacktivism' exemplified by Russia's <b>KillNet</b> and Ukraine's <b>IT Army</b> where governments covertly guide or seed target lists for semi-independent hacktivist collectives.",
+                     "<b>Assessed emerging cyber threats</b> such as AI-assisted social engineering/phishing, ransomware-as-a-service (e.g., GhostSec's <b>GhostLocker</b>), deepfake-enabled social engineering, and drone hijacking of cyber-physical systems."]
+    },
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
+      "name": "NAWCAD Patuxent River, Department of the Navy",
+      "position": "Operations Research Analyst / Autonomous Systems Scientist",
+      "url": "https://www.navair.navy.mil/nawcad/",
+      "startDate": "2018-08",
+      "endDate": "2024-08",
+      "summary": "Project lead for three internal multi-agent autonomous systems development projects.",
+      "highlights": ["<b>Explored centralized vs distributed coordination architectures</b> to evaluate how communication constraints affect multi‑agent task allocation and collaboration efficiency.",
+                     "<b>Built a modular autonomous systems framework</b> and conducted large‑scale simulation experiments (hardware testing paused amidst COVID restrictions); findings were presented at three internal Navy conferences.",
+                     "Extended the framework to handle dynamic environments through moving‑obstacle navigation, multi‑task optimization, and collaboration planning to minimize path conflicts."]
+    },
+    {
+      "name": "NASA Goddard Space Flight Center",
+      "position": "Machine Learning & Hardware Engineer Science Collaborator",
+      "url": "https://www.nasa.gov/goddard/",
+      "startDate": "2021-01",
+      "endDate": "2021-07",
+      "summary": "Collaborated with NASA researchers to develop a unique Linux build and testing platform to evaluate communications-limited deep learning algorithms on Xilinx’s Zybo.",
+      "highlights": ["<b>Performed benchmark analysis</b> to cross-compare the FPGA performance with other development boards and application specific integrated circuits with regards to accuracy, speed, memory usage, and performance.",
+                     "<b>Trained a new classified hyperspectral dataset to develop a TFLite model integrable with the Zybo platform."]
+    },
+        {
+      "name": "U.S. Naval Research Laboratory, Department of the Navy",
+      "position": "Autonomy & Robotics Rotational Researcher",
+      "url": "https://www.nrl.navy.mil/",
+      "startDate": "2019-09",
+      "endDate": "2019-12",
+      "summary": "Collaborated with NRL researchers on a cross-organizational project focused on herding of non-cooperative robots in complex environments.",
+      "highlights": ["<b>Simulated and experimentally validated</b> a previously proposed approach for a pursuer-evader strategy involving navigation around convex obstacles to a goal location."]
     }
   ],
   "volunteer": [
     {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "organization": "",
+      "location": "",
+      "position": "",
+      "url": "",
+      "startDate": "",
+      "endDate": "",
+      "summary": "",
+      "highlights": []
     }
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
+      "institution": "University of Maryland at College Park",
+      "location": "College Park, MD",
+      "url": "https://www.cs.umd.edu/",
+      "area": "",
+      "studyType": "PhD in Computer Science",
+      "startDate": "2023-08",
+      "endDate": "",
+      "score": "",
+      "courses": []
+    },
+      {
+      "institution": "Georgia Institute of Technology",
+      "location": "Atlanta, GA",
+      "url": "https://omscs.gatech.edu/",
+      "area": "Specialization in Computational Perception & Robotics",
+      "studyType": "MS in Computer Science",
+      "startDate": "2020-01",
+      "endDate": "2023-05",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "University of North Carolina at Chapel Hill",
+      "location": "Chapel Hill, NC",
+      "url": "https://physics.unc.edu/",
+      "area": "Focus in Astrophysics",
+      "studyType": "BS in Physics",
+      "startDate": "2014-08",
+      "endDate": "2018-05",
+      "score": "",
+      "courses": []
     }
   ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "title": "Dean's Fellowship",
+      "date": "2023",
+      "awarder": "The Graduate School at UMD College Park",
+      "url": "https://gradschool.umd.edu/funding/student-fellowships-awards/university-deans-and-merit-program",
+      "summary": ""
     }
   ],
   "certificates": [
@@ -76,64 +130,29 @@
       "issuer": "Stanford University",
       "url": "https://example.com",
       "icon": "fa-solid fa-location-dot"
-    },
-    {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
     }
   ],
   "publications": [
     {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
+      "name": "A Framework for Black-Box Controller Design to Automatically Satisfy Specifications Using Signal Temporal Logic",
+      "publisher": "2025 International Conference on Unmanned Aircraft Systems (ICUAS)",
+      "releaseDate": "2025",
+      "url": "https://ieeexplore.ieee.org/document/11007815",
+      "summary": "We present a framework for including human readable specifications in the design of black-box autonomous systems, or systems whose construct are prohibitively complex to analyze or intuit."
     },
     {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
+      "name": "η Geminorum: An Eclipsing Semiregular Variable Star Orbited by a Companion Surrounded by an Extended Disc",
       "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
+      "releaseDate": "2022",
+      "url": "https://academic.oup.com/mnras/article/516/2/2514/6673444?login=true",
+      "summary": "We report 11 yr of spectroscopic monitoring of the M-type asymptotic giant branch star η Gem, a semiregular variable and a known spectroscopic binary with a period of 8.2 yr. We combine our radial velocities with others from the literature to provide an improved spectroscopic orbital solution, which we then use to predict past times of eclipse."
     },
     {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
+      "name": "Onboard Hyperspectral Image Classification via Transfer Learning for Communication-Limited Spacecraft",
+      "publisher": "2022 IEEE Aerospace Conference (AERO)",
+      "releaseDate": "2022",
+      "url": "https://ieeexplore.ieee.org/document/9843805",
+      "summary": "This research explores building robust classification models for onboard data processing where training data is highly limited using transfer-learning techniques. Here, we focus on the use case of hyperspectral imaging for remote sensing, a domain where the high dimensionality of the data from the sensor can rapidly saturate the downlink bandwidth."
     }
   ],
   "skills": [
@@ -165,15 +184,15 @@
   ],
   "interests": [
     {
-      "name": "Physics",
+      "name": "Robotics",
       "icon": "fa-solid fa-tag",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Formal Methods",
+        "Formal Specifications for Learning-Based Policies",
+        "Temporal Logic",
+        "Formal Methods in Robot Policy Synthesis",
+        "Formal Methods in Robot Policy Verification",
+        "Verification for Continuous and Hybrid Systems"
       ]
     }
   ],
