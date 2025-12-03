@@ -23,13 +23,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-repositories",
-          title: "repositories",
-          description: "Github repositories that I own or contribute to.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/repositories/";
-          },
         },{id: "nav-cv",
           title: "cv",
           description: "To download my CV as a PDF, click the button to the right.",
@@ -407,11 +400,26 @@ ninja.data = [{
             window.location.href = "/blog/2015/formatting-and-links/";
           
         },
-      },{id: "books-the-godfather",
-          title: 'The Godfather',
+      },{id: "books-the-measure",
+          title: 'The Measure',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
+              window.location.href = "/books/the_measure/";
+            },},{id: "books-the-nightingale",
+          title: 'The Nightingale',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the_nightingale/";
+            },},{id: "books-what-you-are-looking-for-is-in-the-library",
+          title: 'What you are looking for is in the library',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/what_you_are_looking_for_is_in_the_library/";
+            },},{id: "books-yellowface",
+          title: 'Yellowface',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/yellowface/";
             },},{id: "news-we-presented-our-work-titled-a-framework-for-black-box-controller-design-to-automatically-satisfy-specifications-using-signal-temporal-logic-a-icuas-2025-in-charlotte-nc",
           title: 'We presented our work, titled A Framework for Black-Box Controller Design to Automatically...',
           description: "",
