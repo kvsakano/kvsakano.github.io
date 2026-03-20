@@ -33,15 +33,30 @@ Check out the following news articles written about our event!
 2. [Artificial Intelligence learns to drive: Mario Kart](https://www.baltimoresun.com/2025/10/18/ai-drives-mariokart/) by Karle Hille for the Baltimore Sun
 3. WBALTV covered our project in this news segment (start at 1:00):
 
-    <video src="/assets/videos/WBAL_10-16-2025_17.46.11.mp4" controls style="max-width: 100%; display: block; margin: 0.5em 0 1em;"></video>
-    
+  <iframe width="560" height="315"
+          src="https://youtube.com/embed/gDq8UJKHO-w"
+          title="WBAL segment"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen>
+  </iframe>
+
+
+
 <ol start="4">
   <li>
     FOX5DC covered our project in this news segment (start at 1:18):
 
     <br>
 
-    <video src="/assets/videos/WTTG_10-16-2025_18.46.44.mp4" controls style="max-width: 100%; margin-bottom: 1em; display: block;"></video>
+    
+<iframe width="560" height="315"
+        src="https://youtube.com/embed/JEiFx2ddzfY"
+        title="WTTG segment"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+</iframe>
   </li>
   <li>
     Lastly, a news station in Milwaukee, WI covered our project on their podcast segment, "Stories of the Strange"...
