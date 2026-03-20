@@ -431,7 +431,10 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_3/";
-            },},{id: "projects-project-1",
+            },},{id: "news-i-am-excited-to-join-the-department-of-transportation-highly-automated-systemss-safety-center-of-excellence-dot-hass-coe-this-coming-summer-as-a-dotsi-intern",
+          title: 'I am excited to join the Department of Transportation Highly Automated Systemss Safety...',
+          description: "",
+          section: "News",},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
           section: "Projects",handler: () => {
