@@ -60,15 +60,26 @@
     }
   ],
   "work": [
-        {
+
+    {
+      "name": "US Department of Transportation (USDOT) Highly Automated Systems Safety Center of Excellence (HASS COE)",
+      "position": "Summer Graduate Research Intern",
+      "url": "https://www.transportation.gov/hasscoe",
+      "startDate": "2026-06",
+      "endDate": "2026-08",
+      "summary": "Worked as an intern at the <b>USDOT Highly Automated Systems Safety Center of Excellence (HASS COE)</b>, applying data analytics and algorithmic methods to historical autonomous vehicle crash data.",
+"highlights": ["<b>Developed a data pruning and matching algorithm</b> to reconcile autonomous vehicle crash records across the <b>NHTSA Standing General Order (SGO)</b> and <b>California DMV</b> datasets, using geographic location, manufacturer, narrative text similarity, and incident month.",
+              "<b>Conducted exploratory data analysis</b> to identify trends and discrepancies across the two datasets, including differences in manufacturer reporting and potential gaps in crash reporting.",
+              "<b>Supported development of automated crash typology classification</b> by integrating complementary crash datasets to provide a more comprehensive understanding of the circumstances and scenarios preceding autonomous vehicle crashes."]
+    },
+    {
       "name": "National Consortium for the Study of Terrorism and Responses to Terrorism (START)",
       "position": "Summer Graduate Research Intern",
       "url": "https://www.start.umd.edu/",
       "startDate": "2025-06",
       "endDate": "2025-08",
       "summary": "Co-authored <b>From Protest to Proxy War: A Socio-Technical Overview of the Evolution of Hacktivism</b>, a white paper examining ideologically motivated cybercrimes and their intersection with modern conflict, psychology, and state involvement.",
-      "highlights": ["<b>Analyzed cyber-attack patterns in the 21st century</b>, including major hacktivist operations during the 2025 Iran-Israel conflict and earlier campaigns following the 2022 Mahsa Amini protests in Iran.",
-                     "<b>Modeled pathways state involvement in hacktivist cells</b>, including state-encouraged 'proxy hacktivism' exemplified by Russia's <b>KillNet</b> and Ukraine's <b>IT Army</b> where governments covertly guide or seed target lists for semi-independent hacktivist collectives.",
+      "highlights": ["<b>Modeled pathways state involvement in hacktivist cells</b>, including state-encouraged 'proxy hacktivism' exemplified by Russia's <b>KillNet</b> and Ukraine's <b>IT Army</b> where governments covertly guide or seed target lists for semi-independent hacktivist collectives.",
                      "<b>Assessed emerging cyber threats</b> such as AI-assisted social engineering/phishing, ransomware-as-a-service (e.g., GhostSec's <b>GhostLocker</b>), deepfake-enabled social engineering, and drone hijacking of cyber-physical systems."]
     },
     {
@@ -111,38 +122,6 @@
       "summary": ""
     }
   ],
-  "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
-    }
-  ],
-  "publications": [
-    {
-      "name": "A Framework for Black-Box Controller Design to Automatically Satisfy Specifications Using Signal Temporal Logic",
-      "publisher": "2025 International Conference on Unmanned Aircraft Systems (ICUAS)",
-      "releaseDate": "2025",
-      "url": "https://ieeexplore.ieee.org/document/11007815",
-      "summary": "We present a framework for including human readable specifications in the design of black-box autonomous systems, or systems whose construct are prohibitively complex to analyze or intuit."
-    },
-    {
-      "name": "η Geminorum: An Eclipsing Semiregular Variable Star Orbited by a Companion Surrounded by an Extended Disc",
-      "publisher": "Monthly Notices of the Royal Astronomical Society",
-      "releaseDate": "2022",
-      "url": "https://academic.oup.com/mnras/article/516/2/2514/6673444?login=true",
-      "summary": "We report 11 yr of spectroscopic monitoring of the M-type asymptotic giant branch star η Gem, a semiregular variable and a known spectroscopic binary with a period of 8.2 yr. We combine our radial velocities with others from the literature to provide an improved spectroscopic orbital solution, which we then use to predict past times of eclipse."
-    },
-    {
-      "name": "Onboard Hyperspectral Image Classification via Transfer Learning for Communication-Limited Spacecraft",
-      "publisher": "2022 IEEE Aerospace Conference (AERO)",
-      "releaseDate": "2022",
-      "url": "https://ieeexplore.ieee.org/document/9843805",
-      "summary": "This research explores building robust classification models for onboard data processing where training data is highly limited using transfer-learning techniques. Here, we focus on the use case of hyperspectral imaging for remote sensing, a domain where the high dimensionality of the data from the sensor can rapidly saturate the downlink bandwidth."
-    }
-  ],
   "interests": [
     {
       "name": "Robotics",
@@ -155,16 +134,6 @@
         "Formal Methods in Robot Policy Verification",
         "Verification for Continuous and Hybrid Systems"
       ]
-    }
-  ],
-  "projects": [
-    {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
     }
   ]
 }

@@ -32,7 +32,7 @@
   doi = {10.1109/AERO53065.2022.9843805}}
 
   @INPROCEEDINGS{11007815,
-  abbr = {ICUAS},
+  abbr = {ICUAS25},
   author = {Sakano, Kristy and Mockler, Joe and Chen, Alexis and Xu, Huan},
   booktitle = {2025 International Conference on Unmanned Aircraft Systems (ICUAS)}, 
   title = {A Framework for Black-Box Controller Design to Automatically Satisfy Specifications Using Signal Temporal Logic}, 
@@ -45,3 +45,36 @@
   slides = {ICUAS2025.pdf},
   abstract = {We present a framework for including humanreadable specifications in the design of black-box autonomous systems, or systems whose construct are prohibitively complex to analyze or intuit. By integrating parametric Signal Temporal Logic (pSTL), we can systematically evaluate and refine deep reinforcement learning policies to ensure compliance with predefined system specifications. Our approach is tested in a simulated autonomous driving environment, where we train a deep reinforcement learning agent in Mario Kart SNES using Proximal Policy Optimization. The agent is evaluated based on its ability to navigate a structured driving course while satisfying a set of a priori requirements; this evaluation is performed by writing and solving the parameters in a pSTL statement. This work contributes to the broader effort of bridging formal methods and data-driven learning, providing insights for researchers and operators alike in developing AI based controllers for real-world autonomous systems.},
   selected={true}}
+
+
+@INPROCEEDINGS{11598671,
+  abbr = {ICUAS26},
+  author={Sakano, Kristy and Harrington, Kalonji and Xu, Huan},
+  booktitle={2026 International Conference on Unmanned Aircraft Systems (ICUAS)}, 
+  title={From Language to Logic: A Theoretical Architecture for VLM-Grounded Safe Navigation}, 
+  year={2026},
+  volume={},
+  number={},
+  pages={1268-1275},
+    slides = {ICUAS2026.pdf},
+  keywords={Costing;Costs;Modeling;Navigation;Printing;Timing;Robots;Safety;Labeling;Logic;autonomy;levels of safety;navigation},
+  doi={10.1109/ICUAS69441.2026.11598671},
+  abstract = {We propose an architecture for integrating high-level, human-provided safety rules and operator-aligned semantic preferences into autonomous robot navigation in unstructured outdoor environments. In our approach, natural-language rules are translated into Signal Temporal Logic (STL) specifications that guide planning and navigation during runtime. Persistent, environment-centric rules and terrain preferences are grounded into a 2D cost map, while temporally dynamic requirements are expressed as STL specifications to be monitored during runtime. We hypothesize the use of Vision-Language Models (VLMs) for zero-shot scene understanding, enabling mapping between human instructions, semantic features, and environmental constraints. Within this framework, we construct an illustrative navigation model that is designed to satisfy a set of STL-encoded specifications and soft operator preferences through formal satisfaction metrics embedded into environmental properties and runtime monitoring.}
+  }
+
+@article{https://doi.org/10.1002/adrr.202500202,
+  abbr = {ARR},
+  author = {Sakano, Kristy and An, Jianyu and Manocha, Dinesh and Xu, Huan},
+  title = {DRIVE-SAFE: Data-Driven Robustness and Informed Validation for Evolving Specifications via Formal Evaluation},
+  journal = {Advanced Robotics Research},
+  year = {2026},
+  volume = {n/a},
+  number = {n/a},
+  pages = {e202500202},
+  keywords = {cyber-physical systems, formal methods, robustness},
+  doi = {https://doi.org/10.1002/adrr.202500202},
+  pdf = {https://advanced.onlinelibrary.wiley.com/doi/epdf/10.1002/adrr.202500202},
+  url = {https://advanced.onlinelibrary.wiley.com/doi/abs/10.1002/adrr.202500202},
+  eprint = {https://advanced.onlinelibrary.wiley.com/doi/pdf/10.1002/adrr.202500202},
+  abstract = {We present a regulator-driven framework for the temporal evaluation of learning-based, black-box autonomous robot policies under evolving safety requirements. Motivated by real-world certification processes in which regulators often assess observable behavior in inaccessible black-box policies, we simulate a scenario where deployed policies must maintain ongoing compliance as human-defined safety rules change over time. Natural-language safety requirements are translated into Signal Temporal Logic (STL) specifications, which are then used to quantitatively evaluate rollout traces from black-box policies. We compute Total Robustness Value (TRV), Largest Robustness Value (LRV), and Average Violation Robustness Voting (AVRV), to summarize average performance, worst-case violation, and average specification violation across a set of rollout trajectories. These metrics are combined with domain-informed importance weights to provide targeted feedback to model designers, indicating where retraining or redesign is most needed. In a virtual driving scenario, iterative retraining increased satisfaction of a global speed limit specification by 72\% and a slippage mitigation specification by 32\%. When the speed-limit requirement was tightened, the resulting retrained model increased satisfaction by 47\% but revealed trade-offs with competing safety objectives. Overall, our approach integrates temporal-logic-based robustness metrics with statistically meaningful evaluation, bridging regulator oversight and model improvement under evolving safety requirements.}
+  }

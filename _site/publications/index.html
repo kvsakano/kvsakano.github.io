@@ -125,15 +125,6 @@
             
           
             
-              
-                
-                <li class="nav-item ">
-                  <a class="nav-link" href="/books/">bookshelf
-                    
-                  </a>
-                </li>
-              
-            
           
             
           
@@ -340,12 +331,228 @@
 
 <div class="publications">
 
+<h2 class="bibliography">2026</h2>
+<ol class="bibliography">
+<li>
+<div class="row">
+  
+    <div class="col col-sm-2 abbr">
+          <abbr class="badge rounded w-100">ICUAS26</abbr>
+        
+      
+      
+    </div>
+  
+
+  <!-- Entry bib key -->
+  <div id="11598671" class="col-sm-8">
+    <!-- Title -->
+    <div class="title">From Language to Logic: A Theoretical Architecture for VLM-Grounded Safe Navigation</div>
+    <!-- Author -->
+    <div class="author">
+      
+
+      
+      <em>Kristy
+            Sakano</em>, Kalonji
+            Harrington, and Huan
+            Xu
+      
+    </div>
+
+    <!-- Journal/Book title and date -->
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <div class="periodical">
+      <em>In 2026 International Conference on Unmanned Aircraft Systems (ICUAS)</em>,  2026
+    </div>
+    <div class="periodical">
+      
+    </div>
+
+    <!-- Links/Buttons -->
+    <div class="links">
+      
+      
+        <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+      
+      
+        <a href="https://doi.org/10.1109/ICUAS69441.2026.11598671" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">DOI</a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+        
+          <a href="/assets/pdf/ICUAS2026.pdf" class="btn btn-sm z-depth-0" role="button">Slides</a>
+        
+      
+      
+    </div>
+    
+      
+      
+
+      
+      
+
+      
+      
+
+      
+      
+      
+    
+
+    
+
+    
+      <!-- Hidden abstract block -->
+      <div class="abstract hidden">
+        <p>We propose an architecture for integrating high-level, human-provided safety rules and operator-aligned semantic preferences into autonomous robot navigation in unstructured outdoor environments. In our approach, natural-language rules are translated into Signal Temporal Logic (STL) specifications that guide planning and navigation during runtime. Persistent, environment-centric rules and terrain preferences are grounded into a 2D cost map, while temporally dynamic requirements are expressed as STL specifications to be monitored during runtime. We hypothesize the use of Vision-Language Models (VLMs) for zero-shot scene understanding, enabling mapping between human instructions, semantic features, and environmental constraints. Within this framework, we construct an illustrative navigation model that is designed to satisfy a set of STL-encoded specifications and soft operator preferences through formal satisfaction metrics embedded into environmental properties and runtime monitoring.</p>
+      </div>
+    
+
+    
+
+    
+  </div>
+</div>
+</li>
+<li>
+<div class="row">
+  
+    <div class="col col-sm-2 abbr">
+          <abbr class="badge rounded w-100">ARR</abbr>
+        
+      
+      
+    </div>
+  
+
+  <!-- Entry bib key -->
+  <div id="https://doi.org/10.1002/adrr.202500202" class="col-sm-8">
+    <!-- Title -->
+    <div class="title">DRIVE-SAFE: Data-Driven Robustness and Informed Validation for Evolving Specifications via Formal Evaluation</div>
+    <!-- Author -->
+    <div class="author">
+      
+
+      
+      <em>Kristy
+            Sakano</em>, Jianyu
+            An, Dinesh
+            Manocha, and
+        <span class="more-authors" title="click to view 1 more author" onclick="
+              var element = $(this);
+              element.attr('title', '');
+              var more_authors_text = element.text() == '1 more author' ? 'Huan Xu' : '1 more author';
+              var cursorPosition = 0;
+              var textAdder = setInterval(function(){
+                element.html(more_authors_text.substring(0, cursorPosition + 1));
+                if (++cursorPosition == more_authors_text.length){
+                  clearInterval(textAdder);
+                }
+            }, '10');
+          ">1 more author</span>
+      
+      
+    </div>
+
+    <!-- Journal/Book title and date -->
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <div class="periodical">
+      <em>Advanced Robotics Research</em>,  2026
+    </div>
+    <div class="periodical">
+      
+    </div>
+
+    <!-- Links/Buttons -->
+    <div class="links">
+      
+      
+        <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+      
+      
+        <a href="https://doi.org/https://doi.org/10.1002/adrr.202500202" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">DOI</a>
+      
+      
+      
+      
+      
+        
+          <a href="https://advanced.onlinelibrary.wiley.com/doi/epdf/10.1002/adrr.202500202" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
+        
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+    
+      
+      
+
+      
+      
+
+      
+      
+
+      
+      
+      
+    
+
+    
+
+    
+      <!-- Hidden abstract block -->
+      <div class="abstract hidden">
+        <p>We present a regulator-driven framework for the temporal evaluation of learning-based, black-box autonomous robot policies under evolving safety requirements. Motivated by real-world certification processes in which regulators often assess observable behavior in inaccessible black-box policies, we simulate a scenario where deployed policies must maintain ongoing compliance as human-defined safety rules change over time. Natural-language safety requirements are translated into Signal Temporal Logic (STL) specifications, which are then used to quantitatively evaluate rollout traces from black-box policies. We compute Total Robustness Value (TRV), Largest Robustness Value (LRV), and Average Violation Robustness Voting (AVRV), to summarize average performance, worst-case violation, and average specification violation across a set of rollout trajectories. These metrics are combined with domain-informed importance weights to provide targeted feedback to model designers, indicating where retraining or redesign is most needed. In a virtual driving scenario, iterative retraining increased satisfaction of a global speed limit specification by 72% and a slippage mitigation specification by 32%. When the speed-limit requirement was tightened, the resulting retrained model increased satisfaction by 47% but revealed trade-offs with competing safety objectives. Overall, our approach integrates temporal-logic-based robustness metrics with statistically meaningful evaluation, bridging regulator oversight and model improvement under evolving safety requirements.</p>
+      </div>
+    
+
+    
+
+    
+  </div>
+</div>
+</li>
+</ol>
 <h2 class="bibliography">2025</h2>
 <ol class="bibliography"><li>
 <div class="row">
   
     <div class="col col-sm-2 abbr">
-          <abbr class="badge rounded w-100">ICUAS</abbr>
+          <abbr class="badge rounded w-100">ICUAS25</abbr>
         
       
       

@@ -9,14 +9,7 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-bookshelf",
-          title: "bookshelf",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/books/";
-          },
-        },{id: "nav-publications",
+  },{id: "nav-publications",
           title: "publications",
           description: "Publications by categories in reversed chronological order.",
           section: "Navigation",
@@ -431,8 +424,14 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_3/";
-            },},{id: "news-i-am-excited-to-join-the-department-of-transportation-highly-automated-systemss-safety-center-of-excellence-dot-hass-coe-this-coming-summer-as-a-dotsi-intern",
-          title: 'I am excited to join the Department of Transportation Highly Automated Systemss Safety...',
+            },},{id: "news-i-am-excited-to-join-the-us-epartment-of-transportation-highly-automated-systems-safety-center-of-excellence-dot-hass-coe-this-coming-summer-as-a-dotsi-intern",
+          title: 'I am excited to join the US epartment of Transportation Highly Automated Systems...',
+          description: "",
+          section: "News",},{id: "news-it-s-been-a-busy-spring-three-quick-announcements-below-we-presented-our-work-at-the-high-confidence-software-amp-amp-systems-hcss-conference-2026-this-month-our-paper-from-language-to-logic-a-theoretical-architecture-for-vlm-grounded-safe-navigation-was-accepted-to-icuas-2026-come-see-our-talk-at-the-testing-and-evaluation-autonomy-ii-track-on-thursday-june-18th-️-our-research-made-the-umd-aerospace-engineering-spring-2026-newsletter-read-more-about-it-here-️",
+          title: 'It’s been a busy spring - three quick announcements below! We presented our...',
+          description: "",
+          section: "News",},{id: "news-this-past-summer-i-wrapped-up-my-internship-at-the-usdot-hass-coe-and-presented-our-work-titled-from-language-to-logic-a-theoretical-architecture-for-vlm-grounded-safe-navigation-at-icuas-2026-in-corfu-greece-a-copy-of-our-paper-is-available-in-the-conference-proceedings-here-note-that-the-site-is-password-protected-un-and-pw-both-icuas2026-we-also-published-our-recent-work-drive-safe-data-driven-robustness-and-informed-validation-for-evolving-specifications-via-formal-evaluation-in-wiley-s-advanced-robotics-research-journal-this-paper-is-the-second-is-the-second-in-a-two-part-series-exploring-the-use-of-formal-methods-and-temporal-specifications-to-evaluate-black-box-autonomous-mobile-robots",
+          title: 'This past summer, I wrapped up my internship at the USDOT HASS COE...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',

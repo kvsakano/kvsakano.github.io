@@ -21,6 +21,10 @@ I also co-developed a new project context focused on **personal budgeting and fi
 
 I delivered a guest lecture introducing the fundamentals of **Reinforcement Learning (RL)**, including the **Markov Decision Process (MDP)** framework, policy optimization, and reward-based learning. The session incorporated **interactive examples using Mario gameplay** to illustrate state transitions, exploration–exploitation tradeoffs, and agent training dynamics in a familiar environment. I designed and implemented an **interactive Google Colab assignment** that allowed students to experiment with different object placements to observe their impact on the optimal policy of the model.
 
+*ENTE 601: Autonomy and AI Fundamentals for the Development, Test & Evaluation, Verification & Validation (DTEVV)*
+
+I presented a two-part guest lecture series covering the fundamentals of **Reinforcement Learning (RL)**, **Formal Methods** and model checking, and **Verification and Validation (V&V)** of autonomous mobile robots. We discussed landmark publications and recent articles on topics including reliability, bounded logic, robustness, and signal temporal logic.
+
 ---
 
 ### Reviewing

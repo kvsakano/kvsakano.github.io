@@ -5,5 +5,5 @@ inline: true
 related_posts: false
 ---
 
-I am excited to join the Department of Transportation 
-Highly Automated Systemss Safety Center of Excellence (DOT HASS COE) this coming summer as a DOTSI intern!
+I am excited to join the US epartment of Transportation 
+Highly Automated Systems Safety Center of Excellence (DOT HASS COE) this coming summer as a DOTSI intern!
